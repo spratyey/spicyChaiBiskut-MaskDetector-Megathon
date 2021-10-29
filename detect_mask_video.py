@@ -28,7 +28,7 @@ import numpy as np
 from matplotlib import pyplot
 from mtcnn.mtcnn import MTCNN
 
-
+# use MTCNN to detct faces
 detector = MTCNN()
 def detect_and_predict_mask(frame, maskNet):
 
